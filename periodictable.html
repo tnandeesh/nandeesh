@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Tools Periodic Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .periodic-table {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 10px;
+            margin: 20px;
+        }
+
+        .element {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .element h4 {
+            margin: 0;
+        }
+
+        .element i {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="periodic-table">
+    <!-- Row 1 -->
+    <div class="element">
+        <i class="fab fa-aws"></i>
+        <h4>AWS</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-microsoft"></i>
+        <h4>Azure</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-google"></i>
+        <h4>GCP</h4>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="element">
+        <i class="fab fa-git"></i>
+        <h4>Git</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-github"></i>
+        <h4>GitHub</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-gitlab"></i>
+        <h4>GitLab</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-aws"></i>
+        <h4>AWS CodeCommit</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-bitbucket"></i>
+        <h4>Bitbucket</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-microsoft"></i>
+        <h4>Azure Repos</h4>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="element">
+        <i class="fab fa-jenkins"></i>
+        <h4>Jenkins</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-travis"></i>
+        <h4>TravisCI</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-circle"></i>
+        <h4>CircleCI</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-github"></i>
+        <h4>GitHub Actions</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-aws"></i>
+        <h4>AWS CodeBuild/CodePipeline</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-microsoft"></i>
+        <h4>Azure Pipeline</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-gitlab"></i>
+        <h4>GitLab CI</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-bitbucket"></i>
+        <h4>Bitbucket</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-user-friends"></i>
+        <h4>Team City</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-buddy"></i>
+        <h4>Buddy</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-code"></i>
+        <h4>CodeFresh</h4>
+    </div>
+
+    <!-- Row 4 -->
+    <div class="element">
+        <i class="fas fa-bug"></i>
+        <h4>SonarQube</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-bug"></i>
+        <h4>VeeraCode</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-bug"></i>
+        <h4>BlackDuck</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-bug"></i>
+        <h4>CodeScan</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-bug"></i>
+        <h4>Sonarcloud</h4>
+    </div>
+
+    <!-- Row 5 -->
+    <div class="element">
+        <i class="fab fa-docker"></i>
+        <h4>Docker Hub</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-jfrog"></i>
+        <h4>JFrog Artifactory</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-cube"></i>
+        <h4>Nexus Sonatype</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-aws"></i>
+        <h4>AWS CodeArtifact</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon S3</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-microsoft"></i>
+        <h4>Azure Artifacts</h4>
+    </div>
+
+    <!-- Row 6 -->
+    <div class="element">
+        <i class="fab fa-redhat"></i>
+        <h4>Red Hat JBoss</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-sap"></i>
+        <h4>SAP NetWeaver</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-java"></i>
+        <h4>Apache Tomcat</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-fly"></i>
+        <h4>Wildfly</h4>
+    </div>
+
+    <!-- Row 7 -->
+    <div class="element">
+        <i class="fab fa-linux"></i>
+        <h4>Nginx</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-globe"></i>
+        <h4>HTTP Server</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-node"></i>
+        <h4>Express</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-code"></i>
+        <h4>Caddy</h4>
+    </div>
+
+    <!-- Row 8 -->
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon RDS</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon DynamoDB</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon Redshift</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-database"></i>
+        <h4>MySQL</h4>
+    </div>
+
+    <!-- Row 9 -->
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon ECR</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon ECS</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon EKS</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-rocket"></i>
+        <h4>Rocket (RKT)</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-box"></i>
+        <h4>Crio</h4>
+    </div>
+
+    <!-- Row 10 -->
+    <div class="element">
+        <i class="fas fa-cloud"></i>
+        <h4>Lambda</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>AWS Step Functions</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon Simple Email Service (SES)</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon Simple Notification Service (SNS)</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon API Gateway</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>AWS Lambda</h4>
+    </div>
+
+    <!-- Row 11 -->
+    <div class="element">
+        <i class="fas fa-certificate"></i>
+        <h4>Certificate Manager</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-user-shield"></i>
+        <h4>AWS Identity and Access Management (IAM)</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-shield-alt"></i>
+        <h4>AWS WAF (Web Application Firewall)</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-shield-alt"></i>
+        <h4>AWS Security Hub</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-users"></i>
+        <h4>AWS Single Sign-On (SSO)</h4>
+    </div>
+
+   <!-- Row 12 -->
+    <div class="element">
+        <i class="fab fa-amazon"></i>
+        <h4>Amazon CloudWatch</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-splunk"></i>
+        <h4>Splunk</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-newspaper"></i>
+        <h4>New Relic</h4>
+    </div>
+
+    <!-- Row 13 -->
+    <div class="element">
+        <i class="fas fa-heartbeat"></i>
+        <h4>Nagios</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-chart-line"></i>
+        <h4>Grafana</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-dynatrace"></i>
+        <h4>Dynatrace</h4>
+    </div>
+
+    <!-- Row 14 -->
+    <div class="element">
+        <i class="fab fa-datadog"></i>
+        <h4>Datadog</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-code"></i>
+        <h4>Prometheus</h4>
+    </div>
+
+    <!-- Row 15 -->
+    <div class="element">
+        <i class="fab fa-aws"></i>
+        <h4>Amazon Elastic Beanstalk</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-heroku"></i>
+        <h4>Heroku</h4>
+    </div>
+
+    <!-- Row 16 -->
+    <div class="element">
+        <i class="fab fa-redhat"></i>
+        <h4>Red Hat Ansible</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-pepper-hot"></i>
+        <h4>SaltStack</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-chef"></i>
+        <h4>Chef</h4>
+    </div>
+    <div class="element">
+        <i class="fas fa-puppet"></i>
+        <h4>Puppet</h4>
+    </div>
+
+    <!-- Row 17 -->
+    <div class="element">
+        <i class="fab fa-cloudsmith"></i>
+        <h4>CloudFormation</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-hubspot"></i>
+        <h4>Terraform</h4>
+    </div>
+    <div class="element">
+        <i class="fab fa-microsoft"></i>
+        <h4>Azure ARM Templates</h4>
+    </div>
+
+  
+
+
+    <!-- Continue adding elements for other rows -->
+
+</div>
+
+</body>
+</html>
