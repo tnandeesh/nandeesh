@@ -200,6 +200,65 @@
         margin-left: 10px;
     }
 
+    .portfolio .portfolio-container .portfolio-item {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 10px -5px;
+  overflow: hidden;
+  border-radius: 2px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.portfolio .portfolio-container .portfolio-item .content-holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: rgba(248, 92, 112, 0.8);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.portfolio .portfolio-container .portfolio-item .content-holder .title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.portfolio .portfolio-container .portfolio-item .content-holder .subtitle {
+  font-weight: 500;
+  opacity: 1;
+  color: #090909;
+}
+
+.portfolio .portfolio-container .portfolio-item:hover .content-holder {
+  opacity: 1;
+  visibility: visible;
+}
+    
+
     </style>
   </head>
   <body>
@@ -232,7 +291,7 @@
     </div>
 
     <div class="custom-card">
-        <a href="./services/MLOps.html">
+        <a href="https://medium.com/@nandeesh6010/amazon-elastic-container-service-ecs-using-load-balancers-6903b85a80a5">
             <img src="./nandeesh_files/Amazon Elastic Container Service (ECS) Using Load Balancers.webp" alt="MLOps Icon">
             <h3>Amazon Elastic Container Service (ECS) Using Load Balancers</h3>
         </a>
@@ -243,8 +302,6 @@
         </a>
     </div>
 </div>
-
-
 
 <!-- skills section starts -->
 <head>
